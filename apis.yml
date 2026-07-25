@@ -1,7 +1,31 @@
 aid: cylib
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cylib.png
 name: Cylib
-description: Cylib is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cylib is a German battery recycling company founded in 2022 as a spinoff from
+  RWTH Aachen University, headquartered in Aachen, Germany. It transforms
+  end-of-life lithium-ion batteries, production scrap, and black mass back into
+  critical raw materials, recovering lithium, graphite, nickel, cobalt, and
+  manganese through a proprietary, largely water-based hydrometallurgical process
+  that the company reports achieves over 90% recycling efficiency with an ~80%
+  reduced carbon footprint versus primary extraction, powered by 100% renewable
+  electricity. The company is backed by Speedinvest and other investors. Cylib
+  operates as an industrial cleantech / circular-economy materials business and
+  does not currently publish a developer program, public API, developer portal,
+  SDKs, or other software integration surface; this profile was added to the API
+  Evangelist network as a portfolio-lead stub and carries only identity and
+  public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/cylib/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Battery Recycling
+- Lithium-Ion
+- Circular Economy
+- Cleantech
+- Critical Raw Materials
+- Sustainability
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://cylib.de
+- type: Blog
+  url: https://www.cylib.de/newsroom
+- type: Support
+  url: https://www.cylib.de/contact
+- type: PrivacyPolicy
+  url: https://cdn.prod.website-files.com/67e1131f5d44a2645fbf7222/692d6d667d6b508c1da732a0_251201_Privicy%20Note.pdf
+- type: TermsOfService
+  url: https://cdn.prod.website-files.com/67e1131f5d44a2645fbf7222/69202b40c482990d93b3356b_251113_General%20Terms%20%26%20Conditions%20of%20Sale%2C%20Delivery%20and%20Performance.pdf
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cylib/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
