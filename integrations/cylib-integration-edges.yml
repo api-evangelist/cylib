@@ -1,0 +1,47 @@
+edges:
+- partner_name: Battery Pass consortium (BatteryPass-Ready)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://thebatterypass.eu/battery-pass-ready/
+  category: battery passport consortium participation
+  contract_reference:
+    register: Battery Pass / BatteryPass-Ready partners (thebatterypass.eu/battery-pass-ready/)
+    standard: EU Battery Passport (Battery Regulation 2023/1542) content and data model
+    spec_file: null
+    role: batterypass-partner-network
+    registered_name: cylib GmbH
+    register_id: https://www.cylib.de/de
+    matched_domain: cylib.de
+    matched_by: domain
+    signal_note: 'participation only: partner of the BatteryPass-Ready project (each logo links the partner''s own
+      site); listing is not conformance'
+    detected_by: sweep-electronics-recycling-circular.py
+    detected: '2026-10-21'
+  detected_by: sweep-electronics-recycling-circular.py
+  first_seen: '2026-10-21'
+generated: '2026-10-21'
+method: searched
+source:
+- https://e-stewards.org/find-a-recycler/
+- https://www.ellenmacarthurfoundation.org/network/who-is-in-the-network
+- https://www.globalbattery.org/about/members/
+- https://thebatterypass.eu/battery-pass-ready/
+- https://batterynetwork.org/stewards/compliant-stewards/
+- https://sustainableelectronics.org/find-an-r2-certified-facility/
+- https://www.globalbattery.org/members/
+- https://www.ellenmacarthurfoundation.org/network/members
+- https://www.call2recycle.org/
+checked:
+- https://batterynetwork.org/stewards/compliant-stewards/
+- https://e-stewards.org/find-a-recycler/
+- https://sustainableelectronics.org/find-an-r2-certified-facility/
+- https://thebatterypass.eu/battery-pass-ready/
+- https://www.call2recycle.org/
+- https://www.ellenmacarthurfoundation.org/network/members
+- https://www.ellenmacarthurfoundation.org/network/who-is-in-the-network
+- https://www.globalbattery.org/about/members/
+- https://www.globalbattery.org/members/
